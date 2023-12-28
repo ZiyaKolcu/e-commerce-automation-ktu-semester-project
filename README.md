@@ -1,1 +1,2 @@
-# e-commerce-automation-ktu-semester-project
+# E-Commerce Automation | KTU Semester Project
+
