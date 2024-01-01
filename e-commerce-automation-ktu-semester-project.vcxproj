@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\app\container\container_controller.cpp" />
     <ClCompile Include="src\app\data\customer.cpp" />
     <ClCompile Include="src\app\data\identifier.cpp" />
     <ClCompile Include="src\app\data\order.cpp" />
@@ -137,6 +138,9 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\app\container\container.h" />
+    <ClInclude Include="src\app\container\containers.h" />
+    <ClInclude Include="src\app\container\container_controller.h" />
     <ClInclude Include="src\app\data\customer.h" />
     <ClInclude Include="src\app\data\identifier.h" />
     <ClInclude Include="src\app\data\order.h" />

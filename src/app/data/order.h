@@ -1,7 +1,8 @@
 #pragma once
 #include "../../common/common.h"
+#include "identifier.h"
 
-class Order
+class Order : Identifier
 {
 public:
 	const date& getOrderDate() const;

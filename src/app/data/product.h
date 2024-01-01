@@ -1,7 +1,8 @@
 #pragma once
 #include "../../common/common.h"
+#include "identifier.h"
 
-class Product
+class Product : Identifier
 {
 public:
 	const int& getId() const;

@@ -1,7 +1,8 @@
 #pragma once
 #include "../../common/common.h"
+#include "identifier.h"
 
-class Store
+class Store : Identifier
 {
 public:
 	const string& getAddress() const;
@@ -11,7 +12,7 @@ public:
 	void setAddress(const string& address);
 	void setPhoneNumber(const string& phoneNumber);
 	void setAdmin(const string& admin);
-
+	
 private:
 	string _address;
 	string _phoneNumber;
