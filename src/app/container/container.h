@@ -27,14 +27,14 @@ public:
 	
 	void search(Func data) {
 		Vector result;
-		for (auto &i : _container)
+		for (auto& i : _container)
 		{
 			if (data(i)) {
 				result.push_back(i);
 			}
 		}
-		return result
-	}
+		return result;
+	};
 	void remove(int identifier) {
 		for (auto i = _container.begin(); i != _container.end(); i++)
 		{
@@ -62,7 +62,7 @@ public:
 				_counter = std::max(_counter, item.getIdentifier()) + 1;
 			}
 			else {
-				throw AlreadyExistError()
+				throw AlreadyExistError();
 			}
 		}
 	}

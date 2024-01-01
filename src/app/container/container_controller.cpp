@@ -35,3 +35,8 @@ ProductCommentContainer& Controller::getProductComment()
 {
     return _productComments;
 }
+
+ProductCategoryContainer& Controller::getProductCategory()
+{
+    return _productCategory;
+}

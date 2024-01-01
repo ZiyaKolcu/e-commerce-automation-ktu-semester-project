@@ -8,6 +8,7 @@ class Customer;
 class Order;
 class OrderProduct;
 class ProductComment;
+class ProductCategory;
 
 constexpr int invalid = 0;
 using string = std::string;

@@ -9,13 +9,13 @@ public:
 	const string& getName() const;
 	const currency& getPrice() const;
 	const string& getDescription() const;
-	const string& getCategory() const;
+	const int& getCategoryIdentifier() const;
 
 	void setId(const int& id);
 	void setName(const string& name);
 	void setPrice(const currency& price);
 	void setDescription(const string& description);
-	void setCategory(const string& category);
+	void setCategoryIdentifier(const int& categoryIdentifier);
 
 
 private:
@@ -23,5 +23,5 @@ private:
 	string _name;
 	currency _price;
 	string _description;
-	string _category;
+	int _categoryIdentifier;
 };

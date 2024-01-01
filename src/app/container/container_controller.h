@@ -11,6 +11,7 @@ public:
 	OrderContainer& getOrder();
 	OrderProductContainer& getOrderProduct();
 	ProductCommentContainer& getProductComment();
+	ProductCategoryContainer& getProductCategory();
 
 private:
 	StoreContainer _stores;
@@ -19,4 +20,5 @@ private:
 	OrderContainer _orders;
 	OrderProductContainer _orderProducts;
 	ProductCommentContainer _productComments;
+	ProductCategoryContainer _productCategory;
 };

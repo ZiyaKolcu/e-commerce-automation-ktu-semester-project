@@ -20,9 +20,9 @@ const string& Product::getDescription() const
     return _description;
 }
 
-const string& Product::getCategory() const
+const int& Product::getCategoryIdentifier() const
 {
-    return _category;
+    return _categoryIdentifier;
 }
 
 void Product::setId(const int& id)
@@ -45,7 +45,7 @@ void Product::setDescription(const string& description)
     _description = description;
 }
 
-void Product::setCategory(const string& category)
+void Product::setCategoryIdentifier(const int& categoryIdentifier)
 {
-    _category = category;
+    _categoryIdentifier = categoryIdentifier;
 }

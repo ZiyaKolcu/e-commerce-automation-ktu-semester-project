@@ -133,6 +133,7 @@
     <ClCompile Include="src\app\data\order.cpp" />
     <ClCompile Include="src\app\data\order_product.cpp" />
     <ClCompile Include="src\app\data\product.cpp" />
+    <ClCompile Include="src\app\data\product_category.cpp" />
     <ClCompile Include="src\app\data\product_comment.cpp" />
     <ClCompile Include="src\app\data\store.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="src\app\data\order.h" />
     <ClInclude Include="src\app\data\order_product.h" />
     <ClInclude Include="src\app\data\product.h" />
+    <ClInclude Include="src\app\data\product_category.h" />
     <ClInclude Include="src\app\data\product_comment.h" />
     <ClInclude Include="src\app\data\store.h" />
     <ClInclude Include="src\common\common.h" />
