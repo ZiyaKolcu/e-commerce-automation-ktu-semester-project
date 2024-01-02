@@ -1,17 +1,18 @@
 #pragma once
 #include "containers.h"
+#include "../data/product.h"
 
 class Controller {
 public:
 	static Controller& controller();
 
 	StoreContainer& getStores();
-	ProductContainer& getProduct();
-	CustomerContainer& getCustomer();
-	OrderContainer& getOrder();
-	OrderProductContainer& getOrderProduct();
-	ProductCommentContainer& getProductComment();
-	ProductCategoryContainer& getProductCategory();
+	ProductContainer& getProducts();
+	CustomerContainer& getCustomers();
+	OrderContainer& getOrders();
+	OrderProductContainer& getOrderProducts();
+	ProductCommentContainer& getProductComments();
+	ProductCategoryContainer& getProductCategories();
 
 private:
 	StoreContainer _stores;

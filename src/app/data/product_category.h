@@ -2,7 +2,7 @@
 #include "../../common/common.h"
 #include "identifier.h"
 
-class ProductCategory : Identifier
+class ProductCategory : public Identifier
 {
 public:
 	const string& getCategory() const;

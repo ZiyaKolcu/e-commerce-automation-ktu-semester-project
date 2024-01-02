@@ -1,21 +1,27 @@
 #pragma once
 #include "../../common/common.h"
+#include "../container/containers.h"
 #include "identifier.h"
 
-class Order : Identifier
+class Order : public Identifier
 {
 public:
 	const date& getOrderDate() const;
-	const string& getSeller() const;
+	const int& getSellerIdentifier() const;
 	const int& getCustomerIdentifier() const;
+	const int& getProductIdentifier() const;
+
+	ProductPtr getProduct() const;
 
 	void setOrderDate(const date& date);
-	void setSeller(const string& seller);
+	void setSellerIdentifier(const int& seller);
 	void setCustomerIdentifier(const int& customerIdentifier);
+	void setProductIdentifier(const int& productIdentifier);
 
 private:
 	date _orderDate;
-	string _seller;
+	int _sellerIdentifier;
 	int _customerIdentifier;
+	int _productIdentifier;
 };
 

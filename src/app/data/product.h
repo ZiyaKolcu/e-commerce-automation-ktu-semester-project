@@ -2,7 +2,7 @@
 #include "../../common/common.h"
 #include "identifier.h"
 
-class Product : Identifier
+class Product : public Identifier
 {
 public:
 	const int& getId() const;

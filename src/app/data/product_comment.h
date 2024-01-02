@@ -2,7 +2,7 @@
 #include "../../common/common.h"
 #include "identifier.h"
  
-class ProductComment : Identifier
+class ProductComment : public Identifier
 {
 public:
 	const int& getOrderIdentifier() const;

@@ -3,7 +3,7 @@
 
 class Identifier
 {
-private:
+protected:
     int _identifier;
 
 public:

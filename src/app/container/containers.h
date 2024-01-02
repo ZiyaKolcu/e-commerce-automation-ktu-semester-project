@@ -13,6 +13,7 @@ using D ## AlreadyExist = D ## Container::AlreadyExistError;
 DATA(Store)
 DATA(Product)
 DATA(Customer)
+DATA(Seller)
 DATA(Order)
 DATA(OrderProduct)
 DATA(ProductComment)

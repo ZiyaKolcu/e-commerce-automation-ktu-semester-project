@@ -5,6 +5,7 @@
 class Store;
 class Product;
 class Customer;
+class Seller;
 class Order;
 class OrderProduct;
 class ProductComment;

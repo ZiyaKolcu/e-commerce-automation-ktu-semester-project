@@ -2,7 +2,7 @@
 #include "../../common/common.h"
 #include "identifier.h"
 
-class Customer : Identifier
+class Customer : public Identifier
 {
 public:
 	const string& getName() const;

@@ -3,6 +3,7 @@
 #include <memory>
 #include <vector>
 #include <functional>
+#include <stdexcept>
 
 template <class T>
 class Container
@@ -25,7 +26,7 @@ public:
 		ItemNotFoundError() : std::logic_error("The item not found!") {}
 	};
 	
-	void search(Func data) {
+	Vector search(Func data) {
 		Vector result;
 		for (auto& i : _container)
 		{
@@ -34,7 +35,8 @@ public:
 			}
 		}
 		return result;
-	};
+	}
+
 	void remove(int identifier) {
 		for (auto i = _container.begin(); i != _container.end(); i++)
 		{

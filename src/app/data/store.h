@@ -2,7 +2,7 @@
 #include "../../common/common.h"
 #include "identifier.h"
 
-class Store : Identifier
+class Store : public Identifier
 {
 public:
 	const string& getAddress() const;

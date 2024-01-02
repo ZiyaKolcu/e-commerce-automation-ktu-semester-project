@@ -11,32 +11,32 @@ StoreContainer& Controller::getStores()
     return _stores;
 }
 
-ProductContainer& Controller::getProduct() 
+ProductContainer& Controller::getProducts() 
 {
     return _products;
 }
 
-CustomerContainer& Controller::getCustomer() 
+CustomerContainer& Controller::getCustomers() 
 {
     return _customers;
 }
 
-OrderContainer& Controller::getOrder() 
+OrderContainer& Controller::getOrders() 
 {
     return _orders;
 }
 
-OrderProductContainer& Controller::getOrderProduct() 
+OrderProductContainer& Controller::getOrderProducts() 
 {
     return _orderProducts;
 }
 
-ProductCommentContainer& Controller::getProductComment() 
+ProductCommentContainer& Controller::getProductComments() 
 {
     return _productComments;
 }
 
-ProductCategoryContainer& Controller::getProductCategory()
+ProductCategoryContainer& Controller::getProductCategories()
 {
     return _productCategory;
 }
